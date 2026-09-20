@@ -1,0 +1,80 @@
+name: Build CIPHER Revenge Next repo
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'plugins/**'
+      - 'repo.config.json'
+      - '.github/workflows/cipher-revenge-next.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: cipher-revenge-next-pool
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  POOL_BRANCH: gh-pages
+  POOL_REMOTE: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+  PLAN: ${{ github.workspace }}/releases.json
+  # Use raw.githubusercontent directly; GitHub Pages does not need to be enabled.
+  PAGES_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/gh-pages
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out CIPHER77
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Check out current Revenge plugin template
+        uses: actions/checkout@v6
+        with:
+          repository: revenge-mod/revenge-plugin-template
+          path: .revenge-template
+          fetch-depth: 1
+
+      - name: Put CIPHER plugin into the official toolchain
+        shell: bash
+        run: |
+          rm -rf .revenge-template/plugins/*
+          cp -R plugins/. .revenge-template/plugins/
+          cp repo.config.json .revenge-template/repo.config.json
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Set up Java 25
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '25'
+
+      - name: Install Revenge build dependencies
+        working-directory: .revenge-template
+        run: bun install
+
+      - name: Check out published plugin pool
+        working-directory: .revenge-template
+        run: .github/scripts/checkout-pool.sh
+
+      - name: Plan releases
+        id: plan
+        working-directory: .revenge-template
+        run: .github/scripts/plan-releases.sh
+
+      - name: Build CIPHER plugin
+        if: steps.plan.outputs.count != '0'
+        working-directory: .revenge-template
+        run: ./gradlew --no-daemon packageAllPlugins
+
+      - name: Publish Revenge repository
+        if: steps.plan.outputs.count != '0'
+        working-directory: .revenge-template
+        run: .github/scripts/publish-pool.sh

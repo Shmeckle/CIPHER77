@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "id": "com.cipher2077.ui",
+  "name": "CIPHER // 2077 UI",
+  "description": "Runtime Cyberpunk 2077 styling layer for Discord Android: OLED-black surfaces, cyan neutral text, neon-red HUD accents, yellow selection accents, and reduced rounding.",
+  "author": "Taj",
+  "version": "0.1.0",
+  "dependencies": {
+    "revenge.api": {
+      "version": ">=1 <2"
+    },
+    "discord": {
+      "version": ">=345.0"
+    }
+  },
+  "dist": {
+    "script": "index.js"
+  }
+}
