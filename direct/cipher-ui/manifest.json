@@ -1,11 +1,11 @@
 {
   "name": "CIPHER // 2077 UI",
-  "description": "Cyberpunk HUD geometry and fallback styling layer for CIPHER // 2077.",
+  "description": "SAFE runtime pass: Cyberpunk styling without Metro registry sweeps or native payload interception.",
   "authors": [
     {
       "name": "Taj"
     }
   ],
   "main": "index.js",
-  "hash": "cipher-2077-ui-0.2.0"
+  "hash": "cipher-2077-ui-safe-0.2.1"
 }
