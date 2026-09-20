@@ -1,0 +1,35 @@
+# CIPHER // 2077 direct-install compatibility overlay
+
+This is for the Revenge screen that only shows **Install a plugin**.
+
+Upload these files/folders into the ROOT of your existing `Shmeckle/CIPHER77`
+repository, preserving the `builds/com.cipher2077.ui/` folder structure.
+
+It is okay to keep the existing:
+- `.github/`
+- `plugins/`
+- `repo.config.json`
+- `cipher-2077.json`
+- `rajdhani.json`
+
+After upload the repo should additionally contain:
+
+manifest.json
+repo.json
+builds/
+  com.cipher2077.ui/
+    manifest.json
+    index.js
+
+Then, in Discord -> Settings -> Revenge -> Plugins -> Install a plugin,
+paste ONLY this base URL:
+
+https://raw.githubusercontent.com/Shmeckle/CIPHER77/main/
+
+Do not append `manifest.json`, `repo.json`, or `index.js`. The installer adds
+`manifest.json` itself.
+
+The root manifest points the installer at:
+builds/com.cipher2077.ui/index.js
+
+Version: 0.1.1
