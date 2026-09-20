@@ -1,0 +1,11 @@
+{
+  "name": "CIPHER // 2077 UI",
+  "description": "Cyberpunk HUD geometry and fallback styling layer for CIPHER // 2077.",
+  "authors": [
+    {
+      "name": "Taj"
+    }
+  ],
+  "main": "index.js",
+  "hash": "cipher-2077-ui-0.2.0"
+}
