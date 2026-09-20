@@ -1,19 +1,14 @@
 {
-  "spec": 3,
-  "type": "plugin",
-  "id": "com.cipher2077.ui",
-  "version": "0.1.1",
-  "display": {
-    "name": "CIPHER // 2077 UI",
-    "description": "Cyberpunk 2077 runtime UI styling for Discord Android.",
-    "authors": [
-      {
-        "name": "Taj"
-      }
-    ]
-  },
-  "main": "index.js",
-  "extras": {
-    "bunny": {}
+  "name": "CIPHER // 2077 UI",
+  "description": "Cyberpunk 2077 runtime UI styling for Discord Android.",
+  "authors": [
+    {
+      "name": "Taj"
+    }
+  ],
+  "main": "builds/com.cipher2077.ui/index.js",
+  "hash": "cipher-ui-0.1.1",
+  "vendetta": {
+    "icon": "PaintbrushIcon"
   }
 }
