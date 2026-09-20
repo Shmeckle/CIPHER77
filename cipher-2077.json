@@ -1,7 +1,7 @@
 {
   "name": "CIPHER // 2077",
-  "description": "Cyberpunk 2077 mobile theme matching the desktop palette: pure black, dark plum, neon cyan, red and hazard yellow. Rajdhani typography.",
-  "version": "1.0",
+  "description": "CIPHER // 2077 high-contrast Cyberpunk mobile theme: OLED black, cyan text, neon-red HUD accents, hazard-yellow selection states, Rajdhani typography.",
+  "version": "1.1",
   "authors": [
     {
       "name": "Taj"
@@ -9,7 +9,7 @@
   ],
   "semanticColors": {
     "ANDROID_RIPPLE": [
-      "#72EAF833"
+      "#FF003C44"
     ],
     "CONTEXT_MENU_BACKDROP_BACKGROUND": [
       "#170D16CC"
@@ -21,7 +21,7 @@
       "#170D16"
     ],
     "BACKGROUND_FLOATING": [
-      "#170D16"
+      "#100910"
     ],
     "BACKGROUND_MENTIONED": [
       "#F3E60018"
@@ -45,61 +45,61 @@
       "#000000"
     ],
     "CHANNELTEXTAREA_BACKGROUND": [
-      "#170D16"
+      "#100910"
     ],
     "REDESIGN_ACTIVITY_CARD_BACKGROUND": [
-      "#170D16"
+      "#100910"
     ],
     "REDESIGN_ACTIVITY_CARD_BACKGROUND_PRESSED": [
-      "#25121F"
+      "#170D16"
     ],
     "CHANNELS_DEFAULT": [
       "#02D7F2"
     ],
     "BACKGROUND_MESSAGE_HOVER": [
-      "#170D1666"
+      "#100910"
     ],
     "BACKGROUND_NESTED_FLOATING": [
-      "#170D16"
+      "#100910"
     ],
     "BACKGROUND_MOBILE_PRIMARY": [
       "#000000"
     ],
     "BACKGROUND_MOBILE_SECONDARY": [
-      "#170D16"
+      "#080407"
     ],
     "BACKGROUND_MODIFIER_ACCENT": [
-      "#FF003C33"
+      "#FF003C55"
     ],
     "BACKGROUND_MODIFIER_ACTIVE": [
-      "#F3E60022"
+      "#25121F"
     ],
     "BACKGROUND_MODIFIER_HOVER": [
-      "#72EAF814"
+      "#170D16"
     ],
     "BACKGROUND_MODIFIER_SELECTED": [
-      "#F3E6001F"
+      "#170D16"
     ],
     "BACKGROUND_PRIMARY": [
       "#000000"
     ],
     "BACKGROUND_SECONDARY": [
-      "#170D16"
+      "#080407"
     ],
     "BACKGROUND_SECONDARY_ALT": [
-      "#100910"
+      "#0D070C"
     ],
     "BACKGROUND_TERTIARY": [
-      "#170D16"
+      "#100910"
     ],
     "BG_BASE_PRIMARY": [
       "#000000"
     ],
     "BG_BASE_SECONDARY": [
-      "#100910"
+      "#080407"
     ],
     "BG_BASE_TERTIARY": [
-      "#170D16"
+      "#100910"
     ],
     "BG_BACKDROP": [
       "#000000AA"
@@ -108,16 +108,16 @@
       "#000000"
     ],
     "BORDER_FAINT": [
-      "#FF003C44"
+      "#FF003C66"
     ],
     "BORDER_STRONG": [
       "#FF003C"
     ],
     "BORDER_SUBTLE": [
-      "#72EAF833"
+      "#FF003C33"
     ],
     "CARD_SECONDARY_BG": [
-      "#170D16"
+      "#100910"
     ],
     "CARD_PRIMARY_BG": [
       "#100910"
@@ -126,7 +126,7 @@
       "#FF003C"
     ],
     "EMBED_BACKGROUND": [
-      "#170D16"
+      "#100910"
     ],
     "HEADER_PRIMARY": [
       "#72EAF8"
@@ -138,16 +138,16 @@
       "#F3E600"
     ],
     "INTERACTIVE_HOVER": [
-      "#72EAF8"
+      "#F3E600"
     ],
     "INTERACTIVE_MUTED": [
       "#3A7C84"
     ],
     "INTERACTIVE_NORMAL": [
-      "#02D7F2"
+      "#72EAF8"
     ],
     "MENTION_BACKGROUND": [
-      "#F3E6001F"
+      "#F3E60020"
     ],
     "MENTION_FOREGROUND": [
       "#F3E600"
@@ -156,7 +156,7 @@
       "#170D16"
     ],
     "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
-      "#170D16"
+      "#100910"
     ],
     "REDESIGN_BUTTON_SECONDARY_BORDER": [
       "#FF003C"
@@ -171,7 +171,7 @@
       "#02D7F2"
     ],
     "REDESIGN_CHAT_INPUT_BACKGROUND": [
-      "#170D16"
+      "#100910"
     ],
     "SPOILER_HIDDEN_BACKGROUND": [
       "#170D16"
@@ -198,16 +198,16 @@
       "#72EAF8"
     ],
     "TEXT_MUTED": [
-      "#568E94"
+      "#43848C"
     ],
     "TEXT_NORMAL": [
-      "#02D7F2"
+      "#C8F3F7"
     ],
     "TEXT_PRIMARY": [
       "#72EAF8"
     ],
     "TEXT_SECONDARY": [
-      "#78BFC7"
+      "#02D7F2"
     ],
     "KEYBOARD": [
       "#000000"
@@ -315,17 +315,17 @@
     "PLUM_1": "#02D7F2",
     "PLUM_10": "#02D7F2",
     "PLUM_11": "#FF003C",
-    "PLUM_13": "#25121F",
-    "PLUM_15": "#170D16",
-    "PLUM_16": "#170D16",
-    "PLUM_17": "#170D16",
+    "PLUM_13": "#170D16",
+    "PLUM_15": "#100910",
+    "PLUM_16": "#100910",
+    "PLUM_17": "#080407",
     "PLUM_18": "#000000",
     "PLUM_19": "#000000",
     "PLUM_20": "#000000",
-    "PLUM_21": "#170D16",
-    "PLUM_22": "#100910",
-    "PLUM_24": "#170D16",
-    "PLUM_25": "#100910",
+    "PLUM_21": "#100910",
+    "PLUM_22": "#080407",
+    "PLUM_24": "#100910",
+    "PLUM_25": "#080407",
     "PLUM_3": "#72EAF8",
     "PLUM_4": "#72EAF8",
     "PLUM_6": "#72EAF8",
@@ -336,15 +336,15 @@
     "PRIMARY_330": "#C9F7FA",
     "PRIMARY_360": "#A7EEF4",
     "PRIMARY_400": "#72EAF8",
-    "PRIMARY_460": "#568E94",
-    "PRIMARY_500": "#3A6F74",
-    "PRIMARY_530": "#315E63",
-    "PRIMARY_600": "#170D16",
-    "PRIMARY_630": "#120A11",
+    "PRIMARY_460": "#43848C",
+    "PRIMARY_500": "#315E63",
+    "PRIMARY_530": "#294F54",
+    "PRIMARY_600": "#100910",
+    "PRIMARY_630": "#0D070C",
     "PRIMARY_645": "#000000",
-    "PRIMARY_660": "#170D16",
-    "PRIMARY_700": "#120A11",
-    "PRIMARY_730": "#100910",
+    "PRIMARY_660": "#100910",
+    "PRIMARY_700": "#080407",
+    "PRIMARY_730": "#080407",
     "PRIMARY_800": "#000000",
     "GUILD_BOOSTING_PINK": "#FF003C",
     "GUILD_BOOSTING_PURPLE": "#FF003C",
@@ -376,7 +376,7 @@
   "plus": {
     "version": 0,
     "iconpack": "rosiecord-plumpy",
-    "mentionLineColor": "#F3E600",
+    "mentionLineColor": "#FF003C",
     "customIconOverlays": true,
     "customMessageMentionLineColor": true,
     "icons": {
@@ -390,7 +390,7 @@
         "#F3E600"
       ],
       "mention_line": [
-        "#F3E600"
+        "#FF003C"
       ],
       "StatusOnline": [
         "#47D58B"
