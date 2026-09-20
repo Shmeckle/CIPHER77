@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "name": "CIPHER77",
+  "description": "CIPHER // 2077 plugins for Revenge Next.",
+  "plugins": {
+    "com.cipher2077.ui": {
+      "name": "CIPHER // 2077 UI",
+      "description": "Runtime Cyberpunk 2077 styling layer for Discord Android: OLED-black surfaces, cyan neutral text, neon-red HUD accents, yellow selection accents, and reduced rounding.",
+      "author": "Taj",
+      "channels": {
+        "latest": "0.1.0"
+      },
+      "versions": {
+        "0.1.0": {
+          "url": "https://raw.githubusercontent.com/Shmeckle/CIPHER77/gh-pages/pool/com.cipher2077.ui@0.1.0.zip",
+          "sha256": "81739c4fef955ea463836b885111850898a52d7cb0f620415c05187d329fe23c",
+          "size": 1985,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": ">=345.0"
+            }
+          }
+        }
+      }
+    }
+  }
+}
