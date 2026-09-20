@@ -1,0 +1,14 @@
+{
+  "name": "CIPHER // 2077 UI",
+  "description": "Runtime Cyberpunk 2077 styling for Discord Android: OLED surfaces, cyan neutral text, red HUD borders, yellow selection accents, and reduced rounding.",
+  "authors": [
+    {
+      "name": "Taj"
+    }
+  ],
+  "main": "index.js",
+  "hash": "cipher-ui-0.1.0",
+  "vendetta": {
+    "icon": "PaintbrushIcon"
+  }
+}

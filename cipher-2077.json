@@ -1,7 +1,7 @@
 {
   "name": "CIPHER // 2077",
-  "description": "CIPHER // 2077 high-contrast Cyberpunk mobile theme: OLED black, cyan text, neon-red HUD accents, hazard-yellow selection states, Rajdhani typography.",
-  "version": "1.1",
+  "description": "CIPHER // 2077 mobile palette: OLED black, soft-cyan text, neon-red structure, hazard-yellow selection, Cyberpunk 2077 styling.",
+  "version": "1.2",
   "authors": [
     {
       "name": "Taj"
@@ -66,7 +66,7 @@
       "#000000"
     ],
     "BACKGROUND_MOBILE_SECONDARY": [
-      "#080407"
+      "#000000"
     ],
     "BACKGROUND_MODIFIER_ACCENT": [
       "#FF003C55"
@@ -84,10 +84,10 @@
       "#000000"
     ],
     "BACKGROUND_SECONDARY": [
-      "#080407"
+      "#000000"
     ],
     "BACKGROUND_SECONDARY_ALT": [
-      "#0D070C"
+      "#100910"
     ],
     "BACKGROUND_TERTIARY": [
       "#100910"
@@ -96,7 +96,7 @@
       "#000000"
     ],
     "BG_BASE_SECONDARY": [
-      "#080407"
+      "#000000"
     ],
     "BG_BASE_TERTIARY": [
       "#100910"
@@ -129,7 +129,7 @@
       "#100910"
     ],
     "HEADER_PRIMARY": [
-      "#72EAF8"
+      "#B8F8FC"
     ],
     "HEADER_SECONDARY": [
       "#02D7F2"
@@ -144,7 +144,7 @@
       "#3A7C84"
     ],
     "INTERACTIVE_NORMAL": [
-      "#72EAF8"
+      "#02D7F2"
     ],
     "MENTION_BACKGROUND": [
       "#F3E60020"
@@ -198,13 +198,13 @@
       "#72EAF8"
     ],
     "TEXT_MUTED": [
-      "#43848C"
+      "#78BFC7"
     ],
     "TEXT_NORMAL": [
-      "#C8F3F7"
+      "#B8F8FC"
     ],
     "TEXT_PRIMARY": [
-      "#72EAF8"
+      "#B8F8FC"
     ],
     "TEXT_SECONDARY": [
       "#02D7F2"
@@ -318,39 +318,39 @@
     "PLUM_13": "#170D16",
     "PLUM_15": "#100910",
     "PLUM_16": "#100910",
-    "PLUM_17": "#080407",
+    "PLUM_17": "#000000",
     "PLUM_18": "#000000",
     "PLUM_19": "#000000",
     "PLUM_20": "#000000",
     "PLUM_21": "#100910",
-    "PLUM_22": "#080407",
+    "PLUM_22": "#000000",
     "PLUM_24": "#100910",
-    "PLUM_25": "#080407",
+    "PLUM_25": "#000000",
     "PLUM_3": "#72EAF8",
     "PLUM_4": "#72EAF8",
     "PLUM_6": "#72EAF8",
     "PLUM_9": "#02D7F2",
-    "PRIMARY_100": "#FFFFFF",
-    "PRIMARY_200": "#DDFBFD",
+    "PRIMARY_100": "#B8F8FC",
+    "PRIMARY_200": "#B8F8FC",
     "PRIMARY_300": "#72EAF8",
-    "PRIMARY_330": "#C9F7FA",
-    "PRIMARY_360": "#A7EEF4",
+    "PRIMARY_330": "#B8F8FC",
+    "PRIMARY_360": "#72EAF8",
     "PRIMARY_400": "#72EAF8",
-    "PRIMARY_460": "#43848C",
-    "PRIMARY_500": "#315E63",
-    "PRIMARY_530": "#294F54",
-    "PRIMARY_600": "#100910",
-    "PRIMARY_630": "#0D070C",
+    "PRIMARY_460": "#78BFC7",
+    "PRIMARY_500": "#568E94",
+    "PRIMARY_530": "#3A6F74",
+    "PRIMARY_600": "#000000",
+    "PRIMARY_630": "#000000",
     "PRIMARY_645": "#000000",
-    "PRIMARY_660": "#100910",
-    "PRIMARY_700": "#080407",
-    "PRIMARY_730": "#080407",
+    "PRIMARY_660": "#000000",
+    "PRIMARY_700": "#000000",
+    "PRIMARY_730": "#000000",
     "PRIMARY_800": "#000000",
     "GUILD_BOOSTING_PINK": "#FF003C",
     "GUILD_BOOSTING_PURPLE": "#FF003C",
     "GUILD_BOOSTING_PURPLE_FOR_GRADIENTS": "#FF003C",
     "ROLE_DEFAULT": "#72EAF8",
-    "WHITE_500": "#FFFFFF",
+    "WHITE_500": "#B8F8FC",
     "WHITE_630": "#72EAF8"
   },
   "fonts": {
