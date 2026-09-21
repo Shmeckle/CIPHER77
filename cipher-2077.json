@@ -1,7 +1,7 @@
 {
   "name": "CIPHER // 2077",
-  "description": "CIPHER // 2077 mobile palette v1.3: OLED-black surfaces, Rajdhani-ready cyan typography, neon-red HUD structure, hazard-yellow active states, and expanded Discord 345.x token coverage.",
-  "version": "1.3",
+  "description": "CIPHER // 2077 mobile palette v1.4: OLED-black surfaces, Rajdhani-ready cyan typography, neon-red HUD structure, hazard-yellow active states, and primary chat/message text forced to the desktop theme cyan.",
+  "version": "1.4",
   "authors": [
     {
       "name": "Taj"
@@ -201,10 +201,10 @@
       "#78BFC7"
     ],
     "TEXT_NORMAL": [
-      "#B8F8FC"
+      "#02D7F2"
     ],
     "TEXT_PRIMARY": [
-      "#B8F8FC"
+      "#02D7F2"
     ],
     "TEXT_SECONDARY": [
       "#02D7F2"
@@ -273,7 +273,7 @@
       "#72EAF814"
     ],
     "TEXT_DEFAULT": [
-      "#B8F8FC"
+      "#02D7F2"
     ],
     "TEXT_TERTIARY": [
       "#3A7C84"
@@ -533,8 +533,8 @@
     "PLUM_9": "#02D7F2",
     "PRIMARY_100": "#B8F8FC",
     "PRIMARY_200": "#B8F8FC",
-    "PRIMARY_300": "#72EAF8",
-    "PRIMARY_330": "#B8F8FC",
+    "PRIMARY_300": "#02D7F2",
+    "PRIMARY_330": "#02D7F2",
     "PRIMARY_360": "#02D7F2",
     "PRIMARY_400": "#02D7F2",
     "PRIMARY_460": "#78BFC7",
@@ -563,10 +563,10 @@
     "PRIMARY_DARK_230": "#72EAF8",
     "PRIMARY_260": "#72EAF8",
     "PRIMARY_DARK_260": "#72EAF8",
-    "PRIMARY_DARK_300": "#72EAF8",
-    "PRIMARY_DARK_330": "#B8F8FC",
-    "PRIMARY_345": "#B8F8FC",
-    "PRIMARY_DARK_345": "#B8F8FC",
+    "PRIMARY_DARK_300": "#02D7F2",
+    "PRIMARY_DARK_330": "#02D7F2",
+    "PRIMARY_345": "#02D7F2",
+    "PRIMARY_DARK_345": "#02D7F2",
     "PRIMARY_DARK_360": "#02D7F2",
     "PRIMARY_DARK_400": "#02D7F2",
     "PRIMARY_430": "#78BFC7",
